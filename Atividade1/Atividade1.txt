@@ -1,0 +1,35 @@
+1- Na etapa de análise, é analisado o sistema que o cliente precisa. Nessa etapa, os requisitos são levantados, recursos mensurados e estratégias criadas. 
+Na etapa de projeto, os requisitos são colocados em prática e a forma como o sistema funcionará internamente é levantada e estudada. Nessa fase é definida a arquitetura do sistema, a linguagem utilizada.
+
+2- Abstração: A abstração é a capacidade de transformar o mundo real em virtual através de uma representação estabelecendo identidade, atributos e métodos e isso é um ponto positivo pois é entendido pelo computador como uma entidade real.
+Reuso de código: Nas linguagens OO, o reuso de código é uma realidade e permite que o mesmo codigo seja utilizado diversas vezes sem precisar sempre escrevê-lo. A herança ajuda ao reuso de código ser real.
+Leitura e manutenção do código: A representação do sistema atravésda abstração se assemelha ao mundo real fazendo com que o codigo seja mais legível e mais fácil de manter.
+Criação de bibliotecas: As bibliotecas representadas por classes em linguagens oo são claras e permitem reutilização fácil.
+
+3- Requisitos funcionais servem para dizer especificamente o que o sistema irá fazer e a forma como ele irá se comportar ao fazer determinadas ações. Um exemplo é definir que o sistema irá gerar um relatório, ou fazer um cadastro de um produto.
+
+4- Código
+
+5- Iterator é um padrão de projeto que permite realizar o acesso de um elemento representado por um elemento de alguma coleção de objetos através de acesso aleatório. O iterator é usado para estruturas de dados como sets e maps e é inteligente por possuir os métodos .next() e .hasNext().
+
+6- Código
+
+7- Return retorna um valor estabelecido diretamente ou o valor de variáveis.
+Throw serve para lançar exceções ao executar um método e ele dê errado.
+
+8- Código
+
+9- O polimorfismo permite que possamos ter um maior controle sobre classes criadas através da herança da classe pai. Por meio do polimorfismo, métodos de classes distintas podem ter diferentes comportamentos baseados no que herdou da classe pai.
+
+10- Nas classes abstratas, os métodos não podem ser modificados. Em contrapartida, em interfaces, é estabelecido o contrato do método e eles precisam seguir para compor a classe.
+
+11- Herança de tipo diz respeito a herança no qual classes herdam interfaces e são referenciadas por outros tipos, como "ContaBancaria conta = new ContaCorrente()".
+Herança de implementação é a que herda todo o código da classe pai de uma só vez, sem a necessidade de reescrita ou sobre-escrita de código. Diz respeito a reutilização de código.
+
+12- A desvantagem é a dependencia que um método tem sobre os demais métodos. A alteração desse método implica em impacto sobre os demais objetos. A vantagem é que ele se assegura de que objetos se tornem mais dificeis de serem modificados.
+
+13- Segundo Jacques, a decomposição equilibra o encapsulamento, a granularidade, dependencia, flexibilidade, simplicidade, performance, evolução e reusabilidade. Esconder a representação de dados, algoritmos, formatos de entrada e saída, dependencias de máquina e interface de baixo nível deve ser escondido para atingir um bom nível de decomposição.
+
+14- Responsabilidade de uma classe é o comprotamento que ela possui ao agir. Segundo o princípio de OO, cada classe deve ter uma unica responsabilidade para evitar que classes possuam responsabilidades que não precisaria ter. Em um sistema grande, se existirem muitas classes com responsabilidades mútuas, o sistema torna-se difícil de manter. O melhor a se fazer é criar classes, cada uma com apenas uma responsabilidade. E deve fazer bem.
+
+15- Através de composição, as classes apresentam uma menor dependencia de implementações e as classes ficam focadas em poucas tarefas, tendo as responsabilidades reduzidas. O encapsulamento na composição é obedecido pois os detalhes internos dos objetos não ficam visíveis.

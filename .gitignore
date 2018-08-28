@@ -1,4 +1,3 @@
-/src/
 /Atividade2/.classpath
 /Atividade2/.project
 /Atividade3/bin/
@@ -6,3 +5,5 @@
 /Atividade3/.project
 /Atividade2/.gitignore
 /Atividade3/.gitignore
+.classpath
+.project

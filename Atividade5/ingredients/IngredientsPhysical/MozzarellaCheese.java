@@ -1,0 +1,10 @@
+package ingredients.IngredientsPhysical;
+
+import IngredientsAbstract.Cheese;
+
+public class MozzarellaCheese implements Cheese {
+
+  	public String toString() {
+  		return "Mozzarella Cheese";
+  	}
+  }
